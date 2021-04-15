@@ -10,6 +10,7 @@ Een string kun je zien als een array van letters.
 var voorbeeldString = "Dit is een array van letters";
 voorbeeldString[0]; //geeft terug: D
 ```
+
 Net als een array, ziet Javascript een string als een object. En net zoals je bij een array de method `array.push()` kunt gebruiken om een element toe te voegen aan een array, kun je ook verschillende methods gebruiken om strings te manipuleren.
 
 ```js
@@ -23,11 +24,10 @@ voorbeeldString.length; // geeft terug: 28 (spaties worden meegeteld)
 
 ### Opdracht
 
-1. Schrijf een functie die als parameter een willekeurige string accepteert en deze letter voor letter toont in de console.
+1. Maak gebruik van de functie outputLetters(str). Deze functie dient ten alle tijden een string als argument te krijgen. De functie toont de letters, letter voor letter in de console.
 2. Zorg ervoor dat de willekeurige string wordt gevraagd aan de gebruiker met een prompt.
 
 ### Eindresultaat
-
 
 ### :heart: Bronnen
 
